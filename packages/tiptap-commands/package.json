@@ -1,6 +1,6 @@
 {
-  "name": "@instawiki/tiptap-commands",
-  "version": "1.13.2",
+  "name": "@rmckayfleming/tiptap-commands",
+  "version": "1.13.3",
   "description": "Commands for tiptap",
   "homepage": "https://tiptap.scrumpy.io",
   "license": "MIT",
@@ -28,5 +28,6 @@
     "prosemirror-tables": "1.0.0",
     "prosemirror-utils": "0.9.6",
     "tiptap-utils": "^1.9.1"
-  }
+  },
+  "gitHead": "501ab9ac36c2cae07ef171c3b8f3b7e7d1a19cbd"
 }
