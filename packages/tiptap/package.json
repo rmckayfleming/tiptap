@@ -1,6 +1,6 @@
 {
   "name": "@rmckayfleming/tiptap",
-  "version": "1.27.3",
+  "version": "1.27.4",
   "description": "A rich-text editor for Vue.js",
   "homepage": "https://tiptap.scrumpy.io",
   "license": "MIT",
@@ -12,6 +12,9 @@
     "src",
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/scrumpy/tiptap.git"
@@ -35,5 +38,5 @@
     "vue": "^2.5.17",
     "vue-template-compiler": "^2.5.17"
   },
-  "gitHead": "501ab9ac36c2cae07ef171c3b8f3b7e7d1a19cbd"
+  "gitHead": "5582bce2c841d44f8d3a0a7dfda8893db6ce1ac0"
 }

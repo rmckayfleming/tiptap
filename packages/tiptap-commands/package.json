@@ -1,6 +1,6 @@
 {
   "name": "@rmckayfleming/tiptap-commands",
-  "version": "1.13.3",
+  "version": "1.13.4",
   "description": "Commands for tiptap",
   "homepage": "https://tiptap.scrumpy.io",
   "license": "MIT",
@@ -12,6 +12,9 @@
     "src",
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/scrumpy/tiptap.git"
@@ -29,5 +32,5 @@
     "prosemirror-utils": "0.9.6",
     "tiptap-utils": "^1.9.1"
   },
-  "gitHead": "501ab9ac36c2cae07ef171c3b8f3b7e7d1a19cbd"
+  "gitHead": "5582bce2c841d44f8d3a0a7dfda8893db6ce1ac0"
 }
