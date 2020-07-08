@@ -201,6 +201,8 @@ export default class Editor extends Emitter {
       schema: this.schema,
       doc: this.createDocument(this.options.content),
       plugins: [
+        dropCursor(this.options.dropCursor),
+        gapCursor(),
         ...this.plugins,
         inputRules({
           rules: this.inputRules,
@@ -211,8 +213,6 @@ export default class Editor extends Emitter {
           Backspace: undoInputRule,
         }),
         keymap(baseKeymap),
-        dropCursor(this.options.dropCursor),
-        gapCursor(),
         new Plugin({
           key: new PluginKey('editable'),
           props: {
