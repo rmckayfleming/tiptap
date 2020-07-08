@@ -1,6 +1,6 @@
 {
-  "name": "tiptap-utils",
-  "version": "1.9.1",
+  "name": "@instawiki/tiptap-utils",
+  "version": "1.9.2",
   "description": "Utility functions for tiptap",
   "homepage": "https://tiptap.scrumpy.io",
   "license": "MIT",
